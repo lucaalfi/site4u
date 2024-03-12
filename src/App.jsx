@@ -40,29 +40,7 @@ function App() {
   ])
 
   return (<RouterProvider router={router} />)  
-  
-  
-  // return(
-  //   <>
-  //   <NavBar activePage="home"/>
-  //   <Banner title="Site4u" subtitle="We assist you with Tech 4 FREE" imgSrc="https://placehold.co/1920x1080"/>
-  //   <ProjectDisplay name="Lorem Ipsum"
-  //   imageSrc="https://placehold.co/1920x1080"
-  //   description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique nunc nisl, sit amet vestibulum odio molestie non. Quisque eu egestas erat. Aliquam et ligula id nisi fringilla finibus vel nec risus. Suspendisse non ipsum tortor. Vestibulum iaculis eget sem quis convallis."/>
 
-  //   <Header/>
-  //   <Food/>
-  //   <Card name="Lorem Ipsum" 
-  //   imageSrc="https://placehold.co/600x600"   description="Lorem Ipsum"
-  //   position="Position" 
-  //   linkedIn= "https://placehold.co/600x600"
-  //   instagram= "https://placehold.co/600x600"/>
-
-  //   <Footer/>
-
-  //   <HomePage/>
-  //   </>
-  // );
 }
 
 export default App
