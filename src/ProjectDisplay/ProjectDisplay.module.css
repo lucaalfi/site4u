@@ -1,0 +1,48 @@
+.display{
+    font-family: 'Trebuchet MS', sans-serif;
+    color:white;
+    border:1px solid hsl(0, 0%, 80%);
+    border-radius:10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 15px;
+    margin:10px;
+    text-align: left;
+    max-width: 450px;
+    display: inline-block;
+    background-color: grey;
+}
+
+.display .projectTitle{
+    margin-left: 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color:white;
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.display .projectImg{
+    display: inline-block;
+    margin: 10px;
+    margin-top: 20px;
+    max-width: 35%;
+    float: left;
+}
+
+.display .descWrapper{
+    inline-size: 55%;
+    float: left;
+    display: inline-block;
+    overflow-wrap: break-word;
+}
+
+.display .projectDesc{
+    margin: 10px;
+    font-size: 14px;
+    float: left;
+}
+
+.display .imgDescHolder{
+    display:inline-block;
+    float:left;
+}

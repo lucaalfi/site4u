@@ -1,0 +1,81 @@
+.banner{
+    box-sizing: border-box;
+    max-width:100%;
+    display: flex;
+    float:none;
+    padding: 10px;
+    padding-left:9vw;
+    padding-right:9vw;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+    background-image: linear-gradient(hsl(356,100%,69%), hsl(33, 94%, 72%) );
+}
+
+.rounded{
+    border-radius: 0px 0px 300px 500px;
+}
+
+@media screen and (max-width: 600px) {
+    .banner{
+        overflow: hidden;
+        display:inline-block; 
+        padding: 5px;
+        float: none; 
+        width:100vw; 
+        max-width:100%;
+        text-align: center;
+    }
+
+    .banner .leftPannel{
+        padding:20px!important;
+        min-width:100%;
+    }
+
+    .banner .rightPannel{
+        padding: 10px 20px 15vh 20px!important;
+        min-width:100%;
+    }
+
+}
+
+.banner .leftPannel{
+    box-sizing: border-box;
+    width:45vw;
+    text-align: left;
+    align-items: center;
+    min-height: 100%;
+    padding:75px;
+}
+
+.banner .rightPannel{
+    box-sizing: border-box;
+    float:left;
+    width:45vw;
+    height:auto;
+    display: inline-block;
+    padding:50px;
+}
+
+.banner .bannerTxt{
+    font-weight: bold;
+    font-size: 64px;
+    vertical-align: text-top;
+    margin: 0;
+}
+
+.banner .subtitle{
+    font-size: 24px;
+}
+
+.banner .imgSubtitle{
+    font-size: 24px;
+    text-wrap: stable;
+    overflow: wrap-word;
+}
+
+.banner .bannerImg{
+    display: block;
+    max-width: 90%;
+    height: auto;
+    padding-right: 500px;
+}

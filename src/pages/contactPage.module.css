@@ -1,0 +1,43 @@
+.contactHolder{
+    margin: 0px;
+    height: 88vh;
+    display: flex;
+    float:none;
+    padding-left:9vw;
+    padding-right:9vw;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+    background-image: linear-gradient(hsl(356,100%,69%), hsl(33, 94%, 72%) );
+}
+
+.contactContents{
+    padding:12px;
+    color:hsl(0,0%,30%);
+    font-size: 20px;
+    
+}
+
+.contactCard{
+    color:hsl(0,0%,30%);
+    border:1px solid hsl(0, 0%, 80%);
+    border-radius:10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 50px;
+    margin:2vh;
+    text-align: center;
+    width: 60vw;
+    height: auto;
+    background-color: hsl(0, 0%, 80%);
+}
+
+.contactCard h4{
+    margin: 20px;
+    display: block;
+}
+
+.contactCard p{
+    margin: 20px;
+    display: block;
+}
