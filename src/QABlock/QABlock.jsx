@@ -12,7 +12,6 @@ function QABlock(props){
             
             <div className={styles.answerHolder}>
                 <h4>A:</h4>
-                {/* <img src="https://i.kym-cdn.com/entries/icons/original/000/048/705/stilgar_dune.jpg" className="meme"></img> */}
                 <p>{props.answer}</p>
             </div>
         </div>
