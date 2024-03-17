@@ -1,18 +1,35 @@
 .banner{
     box-sizing: border-box;
     max-width:100%;
+    min-height: 20vw;
     display: flex;
     float:none;
+    align-items: center;
     padding: 10px;
-    padding-left:9vw;
+    padding-left:1vw;
     padding-right:9vw;
     font-family: 'Trebuchet MS', sans-serif;
     color: white;
-    background-image: linear-gradient(hsl(356,100%,69%), hsl(33, 94%, 72%) );
+    background-image: linear-gradient(to right, hsl(356,100%,69%), hsl(33, 94%, 72%) );
+}
+
+.heroImg{
+    position:absolute;
+    left:1vw;
+    top: -50px;
+    opacity: 50%;
+    max-width: 400px;
+}
+.hidden{
+    display: none;
+}
+
+.leftStacker{
+    position: relative;
 }
 
 .rounded{
-    border-radius: 0px 0px 300px 500px;
+    border-radius: 0 0 300px 0;
 }
 
 @media screen and (max-width: 600px) {
@@ -24,6 +41,8 @@
         width:100vw; 
         max-width:100%;
         text-align: center;
+        background-image: linear-gradient(hsl(356,100%,69%), hsl(33, 94%, 72%) );
+
     }
 
     .banner .leftPannel{
@@ -32,15 +51,19 @@
     }
 
     .banner .rightPannel{
-        padding: 10px 20px 15vh 20px!important;
+        padding: 30!important;
         min-width:100%;
+    }
+
+    .heroImg{
+        display: none;
     }
 
 }
 
 .banner .leftPannel{
+    position:relative;
     box-sizing: border-box;
-    width:45vw;
     text-align: left;
     align-items: center;
     min-height: 100%;
@@ -50,8 +73,7 @@
 .banner .rightPannel{
     box-sizing: border-box;
     float:left;
-    width:45vw;
-    height:auto;
+    max-width:40vw;
     display: inline-block;
     padding:50px;
 }
@@ -75,7 +97,6 @@
 
 .banner .bannerImg{
     display: block;
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
-    padding-right: 500px;
 }

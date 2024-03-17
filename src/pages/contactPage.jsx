@@ -10,7 +10,6 @@ function ContactPage() {
    
     return(
       <>
-        <NavBar activePage="contact"/>
         <div className={styles.contactHolder}>
             <div className={styles.contactContents}>
                 <div className={styles.contactCard}>

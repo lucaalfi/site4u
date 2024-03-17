@@ -12,7 +12,6 @@ function FaqPage() {
    
     return(
       <>
-        <NavBar activePage="faq"/>
         <Banner title="Frequently Asked Questions" subtitle="We've got your most likely questions covered." rounded={false}/>
         <div className={styles.faqContents}>
             <QABlock question="And what if the emperor had all the great houses on his side?" answer="If they all got together maybe they would give me a little trouble."/>

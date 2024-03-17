@@ -1,0 +1,18 @@
+.sideMenu{
+    height: 100vh;
+    display: block;
+    width: 25%;
+    background-color: hsl(356,100%,69%);
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+@media screen and (max-width: 600px) {
+    .sideMenu {
+        position:static;
+        top:0;
+        width:100%;
+        height:auto;
+    } 
+}

@@ -1,6 +1,6 @@
 .contactHolder{
     margin: 0px;
-    height: 88vh;
+    height: 100vh;
     display: flex;
     float:none;
     padding-left:9vw;
@@ -9,7 +9,7 @@
     justify-content: center;
     font-family: 'Trebuchet MS', sans-serif;
     color: white;
-    background-image: linear-gradient(hsl(356,100%,69%), hsl(33, 94%, 72%) );
+    background-image: linear-gradient(to right,hsl(356,100%,69%), hsl(33, 94%, 72%) );
 }
 
 .contactContents{
@@ -40,4 +40,10 @@
 .contactCard p{
     margin: 20px;
     display: block;
+}
+
+@media screen and (max-width: 600px) {
+    .contactHolder{
+        background-image: linear-gradient(hsl(356,100%,69%), hsl(33, 94%, 72%) );
+    }
 }

@@ -3,6 +3,7 @@ import {
   RouterProvider,
 }from "react-router-dom";
 
+import PageAssembler from "./pages/pageAssembler.jsx";
 import HomePage from "./pages/homePage.jsx";
 import TeamPage from "./pages/teamPage.jsx";
 import ProjectsPage from "./pages/projectsPage.jsx";
@@ -15,27 +16,27 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <HomePage />,
+      element: <PageAssembler desiredPage="home" />,
     },
     {
       path: "/home",
-      element: <HomePage />,
+      element: <PageAssembler desiredPage="home" />,
     },
     {
       path: "/team",
-      element: <TeamPage />,
+      element: <PageAssembler desiredPage="team" />,
     },
     {
       path: "/projects",
-      element: <ProjectsPage />,
+      element: <PageAssembler desiredPage="projects" />,
     },
     {
       path: "/faq",
-      element: <FaqPage />,
+      element: <PageAssembler desiredPage="faq" />,
     },
     {
       path: "/contact",
-      element: <ContactPage />,
+      element: <PageAssembler desiredPage="contact" />,
     },
   ])
 

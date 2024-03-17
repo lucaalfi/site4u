@@ -1,0 +1,47 @@
+.sideBttCont{
+    box-sizing: border-box;
+    overflow: hidden;
+    width:100%;
+    text-align: center;
+    padding: 10px;
+    background-color: hsl(356,100%,69%);
+}
+
+.active {
+    text-decoration: underline!important;
+}
+
+.hidden{
+    display:none;
+}
+
+.imgHolder{
+    display: inline-block;
+    float: left;
+}
+
+.nameHolder{
+    display: inline-block;
+    float: left;
+}
+
+.sideBttCont a {
+    display: block;
+    text-align: center;
+    padding: 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.sideBttCont:hover:not(.active) {
+    background-color: hsl(356,100%,59%);
+}  
+
+.navLogo {
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    height: auto;
+    padding: 10px;
+}
