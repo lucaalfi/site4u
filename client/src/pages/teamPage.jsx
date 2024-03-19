@@ -3,6 +3,7 @@ import Card from '../MemberCard/MemberCard.jsx'
 import NavBar from '../NavBar/NavBar.jsx'
 import Banner from '../Banner/Banner.jsx'
 import styles from "./teamPage.module.css"
+import MemberCardList from '../MemberCard/MemberCardList.jsx'
 
 function TeamPage() {
     const members = [];
@@ -22,7 +23,7 @@ function TeamPage() {
       <>
         <Banner title="Our Team" subtitle="Meet Our Astounding Team" imgSubtitle="Our team consists of hardworking individuals with various amount of experience. Each member is required to meet a minimum expectation to ensure quality. If you are interested in joining the team, please contact us." rounded={true}/>
         <div className={styles.teamContents}>
-            {members}
+            <MemberCardList/>
         </div>
   
         <Footer/>

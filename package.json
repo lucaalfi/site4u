@@ -1,17 +1,25 @@
 {
-  "name": "my-react-app",
+  "name": "site4u",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
-    "dev": "vite",
+    "serverInstall": "npm install",
+    "clientInstall": "concurrently \"cd client && npm install\"",
+    "bothInstall": "npm install concurrently --save && concurrently \"npm run serverInstall && npm run clientInstall\"",
+    "startAll": "concurrently \"nodemon index.js --ignore client\" \"cd client && npm run dev\"",
+    "start": "node server/index.js",
+    "server": "nodemon index.js --ignore client",
+    "dev": "concurrently \"cd client && npm run dev\"",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "nodemon": "^3.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",

@@ -9,6 +9,7 @@ import TeamPage from "./pages/teamPage.jsx";
 import ProjectsPage from "./pages/projectsPage.jsx";
 import FaqPage from "./pages/faqPage.jsx";
 import ContactPage from "./pages/contactPage.jsx";
+import TestApp from "./testApp.jsx";
 
 
 function App() {
@@ -38,6 +39,10 @@ function App() {
       path: "/contact",
       element: <PageAssembler desiredPage="contact" />,
     },
+    {
+      path: "/test",
+      element: <TestApp />,
+    },    
   ])
 
   return (<RouterProvider router={router} />)  
