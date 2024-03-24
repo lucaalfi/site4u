@@ -7,9 +7,9 @@
     padding: 15px;
     margin:10px;
     text-align: left;
-    max-width: 450px;
+    max-width: auto;
     display: inline-block;
-    background-color: grey;
+    background-color: 	hsl(21, 80%, 66%);
 }
 
 .display .projectTitle{

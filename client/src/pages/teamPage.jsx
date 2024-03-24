@@ -22,10 +22,12 @@ function TeamPage() {
     return(
       <>
         <Banner title="Our Team" subtitle="Meet Our Astounding Team" imgSubtitle="Our team consists of hardworking individuals with various amount of experience. Each member is required to meet a minimum expectation to ensure quality. If you are interested in joining the team, please contact us." rounded={true}/>
-        <div className={styles.teamContents}>
-            <MemberCardList/>
+        <div className={styles.teamsHolder}>
+          <div className={styles.teamContents}>
+              <MemberCardList/>
+          </div>
         </div>
-  
+ 
         <Footer/>
       </>
     );

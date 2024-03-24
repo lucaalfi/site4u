@@ -6,23 +6,41 @@
     padding-left:9vw;
     padding-right:9vw;
     align-items: center;
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
     font-family: 'Trebuchet MS', sans-serif;
     color: white;
     background-image: linear-gradient(to right,hsl(356,100%,69%), hsl(33, 94%, 72%) );
 }
 
 .contactContents{
+    display: flex;
     padding:12px;
     color:hsl(0,0%,30%);
-    font-size: 20px;
-    
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactBubble{
+    width: fit-content;
+    margin: auto;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: hsl(21, 80%, 66%);
+    border-radius: 35px;
+}
+
+.contactCard h4{
+    font-size: 35px;
 }
 
 .contactCard{
     color:hsl(0,0%,30%);
     border:1px solid hsl(0, 0%, 80%);
-    border-radius:10px;
+    border-radius:35px;
     box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
     padding: 50px;
     margin:2vh;

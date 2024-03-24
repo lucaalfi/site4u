@@ -1,8 +1,19 @@
 .projectsContents{
-    margin-left:5vw;
-    margin-right:7vw;
-    padding:12px;
+    padding: 12px  calc(12px + 7vw) 12px calc(12px + 7vw);
     font-family: 'Trebuchet MS', sans-serif;
     color:hsl(0,0%,30%);
     font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    border-radius: 50px 0px 0px 0px; 
+    background-color: lightgray; 
+    
+}
+
+.projectsHolder{
+    width: 100%;
+    margin:0;
+    padding: 0;
+    background-image: linear-gradient(to right, hsl(356,100%,69%), hsl(33, 94%, 72%) );
 }

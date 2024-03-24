@@ -11,11 +11,15 @@ function ProjectsPage() {
   return(
       <>
         <Banner title="Our Projects" subtitle="See some of our recent achievements." imgSubtitle="We are  proud of having an extensive track record of assisting businesses to constantly improve their tech and keep up with their needs without going over budget. Below are some of the most successful examples of how we strive to make a positive impact.  " rounded={true}/>
-        <div className={styles.projectsContents}>
-            <ProjectDisplayList/>
+        <div className={styles.projectsHolder}>
+          <div className={styles.projectsContents}>
+              <ProjectDisplayList/>
+              
+          </div>
+          <Footer/>
         </div>
   
-        <Footer/>
+        
       </>
     );
   }

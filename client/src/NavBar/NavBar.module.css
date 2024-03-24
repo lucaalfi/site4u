@@ -18,6 +18,7 @@ ul.navBar {
     margin: 0;
     overflow: hidden;
     background-color: hsl(356,100%,69%);
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
   }
 
 ul.navBar li {

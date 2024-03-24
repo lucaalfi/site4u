@@ -1,7 +1,7 @@
 .contentSide{
-    margin-left:25%;
+    margin-left:17%;
     display:"inline-block";
-    max-width:75%;
+    max-width:83%;
 }
 
 @media screen and (max-width: 600px) {

@@ -4,6 +4,9 @@
     font-family: 'Trebuchet MS', sans-serif;
     color:hsl(0,0%,30%);
     font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
 }
 
 .homeContents h2{
@@ -18,6 +21,10 @@
     margin-left: 2vw;
     padding: 12px;
 }
+
+.homeContents ul{
+    width: 100%;
+ }
 
 .homeContents li{
     margin-left: 2vw;
