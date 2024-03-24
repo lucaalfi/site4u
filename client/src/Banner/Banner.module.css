@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .banner{
     box-sizing: border-box;
     max-width:100%;
@@ -8,7 +10,7 @@
     padding: 10px;
     padding-left:1vw;
     padding-right:9vw;
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: "Poppins", sans-serif;
     color: white;
     background-image: linear-gradient(to right, hsl(356,100%,69%), hsl(33, 94%, 72%) );
 }
@@ -80,7 +82,7 @@
 
 .banner .bannerTxt{
     font-weight: bold;
-    font-size: 64px;
+    font-size: 60px;
     vertical-align: text-top;
     margin: 0;
 }
