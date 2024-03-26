@@ -36,9 +36,9 @@ function PageAssembler(props){
     return(
         <>
         <SideBar activePage={props.desiredPage}/>
-        <div className={styles.contentSide}>
-                {desiredPage}
-            </div>
+        <div className={styles.contentSide} id="contentSide">
+          {desiredPage}
+        </div>
         </>
     );
 
