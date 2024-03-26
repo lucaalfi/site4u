@@ -23,11 +23,11 @@ function SideBar(props){
         }
         else{
             toCollapse.style.display = "block";
-            sideMenu.style.width = "17%";
+            sideMenu.style.width = "18%";
 
             if(contentSide!=null){
-                contentSide.style.maxWidth = "83%"; 
-                contentSide.style.marginLeft = "17%"; 
+                contentSide.style.maxWidth = "82%"; 
+                contentSide.style.marginLeft = "18%"; 
             }            
         }
     }
